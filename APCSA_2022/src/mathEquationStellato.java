@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class GroupReportingStellato{
+public class mathEquationStellato{
 	public static void main(String[] args) {
 		
 		Scanner consoleIn = new Scanner(System.in);
