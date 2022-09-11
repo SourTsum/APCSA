@@ -58,14 +58,23 @@ public class schoolUseful {
 
 			// showSet command (shows the study set)
 			if (nextInput.equals("-showSet")) {
-				for (Map.Entry<String, String> entry : studySet.entrySet()) {
-					System.out.println("Question: " + entry.getKey() + " | Answer: " + entry.getValue());
+				if(studySet.size() != 0) {
+					for (Map.Entry<String, String> entry : studySet.entrySet()) {
+						System.out.println("Question: " + entry.getKey() + " | Answer: " + entry.getValue());
+					}
+				} else {
+					System.out.println("| Empty Set |");
 				}
 			}
 
 			// clearSet command (clears the study set)
 			if (nextInput.equals("-clearSet")) {
-				studySet.clear();
+				System.out.print("Are you sure you want to clear your study set? (Y/N)\n: ");
+				if((consoleIn.next() + consoleIn.nextLine()).equals("Y")){
+					System.out.println("Successfully cleared your study set!");
+					studySet.clear();
+				}
+				
 			}
 
 			if (nextInput.equals("-quizSet")) {
