@@ -69,12 +69,7 @@ public class schoolUseful {
 
 			// clearSet command (clears the study set)
 			if (nextInput.equals("-clearSet")) {
-				System.out.print("Are you sure you want to clear your study set? (Y/N)\n: ");
-				if((consoleIn.next() + consoleIn.nextLine()).equals("Y")){
-					System.out.println("Successfully cleared your study set!");
-					studySet.clear();
-				}
-				
+				studySet.clear();
 			}
 
 			if (nextInput.equals("-quizSet")) {
