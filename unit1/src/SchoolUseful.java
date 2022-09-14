@@ -15,14 +15,10 @@ public class SchoolUseful {
 		Scanner consoleIn = new Scanner(System.in); // Created Scanner
 		HashMap<String, String> studySet = new HashMap<String, String>(); // Going Beyond: Used a Hash Map data structure
 
-		// 1.2 Data typing (Declaring Variables)
-		// boolean running = true; // Used for main loop
-
 		int score = 0; // Used to keep score when quizzing someone
 		String questionIn, answerIn; // Used for inputing key pair values into the studySet hashmap
 
-		// 1.1 Output (Initial print our informing the user on how to receive help with
-		// commands)
+		// 1.1 Output: Initial print our informing the user on how to receive help with commands
 		System.out.println("Welcome to study sets!");
 		System.out.println("For help with commands type -help.");
 
