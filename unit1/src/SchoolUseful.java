@@ -13,8 +13,7 @@ public class SchoolUseful {
 	public static void main(String[] args) {
 
 		Scanner consoleIn = new Scanner(System.in); // Created Scanner
-		HashMap<String, String> studySet = new HashMap<String, String>(); // Going Beyond (Used a Hash Map data
-																			// structure)
+		HashMap<String, String> studySet = new HashMap<String, String>(); // Going Beyond: Used a Hash Map data structure
 
 		// 1.2 Data typing (Declaring Variables)
 		// boolean running = true; // Used for main loop
