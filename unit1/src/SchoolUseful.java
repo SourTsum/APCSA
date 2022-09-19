@@ -16,8 +16,6 @@ public class SchoolUseful {
 		HashMap<String, String> studySet = new HashMap<String, String>(); // Going Beyond (Used a Hash Map data
 																			// structure)
 
-		// 1.2 Data typing (Declaring Variables)
-		// boolean running = true; // Used for main loop
 
 		int score = 0; // Used to keep score when quizzing someone
 		String questionIn, answerIn; // Used for inputing key pair values into the studySet hashmap
