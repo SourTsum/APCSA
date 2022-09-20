@@ -1,5 +1,12 @@
 import gpdraw.*;
 import java.math.*;
+
+/*
+ * @Author : Alexander Stellato
+ * @Date : 9 / 19 / 22
+ * @Class : AP Computer Science A
+ */
+
 public class repatativePictureStellato {
 	
 	// Writing my own method that oscillates between intervals of 90 which creates the up and down patters shown 
